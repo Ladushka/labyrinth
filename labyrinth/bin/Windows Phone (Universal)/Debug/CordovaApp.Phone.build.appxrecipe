@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PANDA</Machine>
+    <WindowsUser>Лада</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>debug|arm</SolutionConfiguration>
+    <PackageArchitecture>arm</PackageArchitecture>
+    <PackageIdentityName>02241fd0-1c1d-11e6-ac0d-fbada04f8706</PackageIdentityName>
+    <IntermediateOutputPath>E:\practice\labyrinth\labyrinth\platforms\windows\build\phone\bld\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="E:\practice\labyrinth\labyrinth\platforms\windows\build\phone\debug\arm\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\SplashScreen.scale-100.png">
+      <PackagePath>images\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\SplashScreenPhone.scale-240.png">
+      <PackagePath>images\SplashScreenPhone.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square150x150Logo.scale-100.png">
+      <PackagePath>images\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square150x150Logo.scale-240.png">
+      <PackagePath>images\Square150x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square30x30Logo.scale-100.png">
+      <PackagePath>images\Square30x30Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square44x44Logo.scale-100.png">
+      <PackagePath>images\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square44x44Logo.scale-240.png">
+      <PackagePath>images\Square44x44Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square71x71Logo.scale-100.png">
+      <PackagePath>images\Square71x71Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Square71x71Logo.scale-240.png">
+      <PackagePath>images\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\StoreLogo.scale-100.png">
+      <PackagePath>images\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\StoreLogo.scale-240.png">
+      <PackagePath>images\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\images\Wide310x150Logo.scale-240.png">
+      <PackagePath>images\Wide310x150Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\images\cordova.png">
+      <PackagePath>www\images\cordova.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\cordova-js-src\exec.js">
+      <PackagePath>www\cordova-js-src\exec.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\cordova-js-src\platform.js">
+      <PackagePath>www\cordova-js-src\platform.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\cordova.js">
+      <PackagePath>www\cordova.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\cordova_plugins.js">
+      <PackagePath>www\cordova_plugins.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\plugins\cordova-plugin-device-motion\src\windows\AccelerometerProxy.js">
+      <PackagePath>www\plugins\cordova-plugin-device-motion\src\windows\AccelerometerProxy.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\plugins\cordova-plugin-device-motion\www\Acceleration.js">
+      <PackagePath>www\plugins\cordova-plugin-device-motion\www\Acceleration.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\plugins\cordova-plugin-device-motion\www\accelerometer.js">
+      <PackagePath>www\plugins\cordova-plugin-device-motion\www\accelerometer.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\scripts\example.js">
+      <PackagePath>www\scripts\example.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\scripts\index.js">
+      <PackagePath>www\scripts\index.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\scripts\platformOverrides.js">
+      <PackagePath>www\scripts\platformOverrides.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\scripts\script.js">
+      <PackagePath>www\scripts\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\scripts\script1.js">
+      <PackagePath>www\scripts\script1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\scripts\winstore-jscompat.js">
+      <PackagePath>www\scripts\winstore-jscompat.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\WinJS\js\base.js">
+      <PackagePath>www\WinJS\js\base.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\css\index.css">
+      <PackagePath>www\css\index.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\images\1.gif">
+      <PackagePath>www\images\1.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\images\1.jpg">
+      <PackagePath>www\images\1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\images\4.jpg">
+      <PackagePath>www\images\4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\images\8.jpg">
+      <PackagePath>www\images\8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\index.html">
+      <PackagePath>www\index.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\json.txt">
+      <PackagePath>www\json.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\labyrinth.resjson">
+      <PackagePath>www\labyrinth.resjson</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\resources.resjson">
+      <PackagePath>www\resources.resjson</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\www\test.json">
+      <PackagePath>www\test.json</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\config.xml">
+      <PackagePath>config.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="E:\practice\labyrinth\labyrinth\platforms\windows\build\phone\debug\arm\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\">
+      <Name>Microsoft.Phone.WinJS.2.1</Name>
+      <Version>1.0.9651.0</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.Phone.WinJS.2.1, MinVersion=1.0.9651.0</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\WindowsPhoneApp\v8.1\ExtensionSDKs\Microsoft.Phone.WinJS.2.1\1.0\Microsoft.Phone.WinJS.2.1.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
