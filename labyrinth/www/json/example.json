@@ -1,0 +1,105 @@
+{
+
+  "height": "4",
+  "width": "4",
+  "win": "9",
+    "blocks": [
+    {
+      //1
+      "top": false,
+      "right": true,
+      "bottom": false,
+      "left": false
+    },
+    { //2
+      "top": false,
+      "right": true,
+      "bottom": false,
+      "left": true
+    },
+    { //3
+      "top": false,
+      "right": false,
+      "bottom": true,
+      "left": true
+    },
+    { //4
+      "top": false,
+      "right": false,
+      "bottom": true,
+      "left": false
+    },
+    {
+      "top": false,
+      "right": true,
+      "bottom": true,
+      "left": false
+    },
+    { //6
+      "top": false,
+      "right": true,
+      "bottom": false,
+      "left": true
+    },
+    { //7
+      "top": true,
+      "right": false,
+      "bottom": true,
+      "left": true
+    },
+    { //8
+      "top": true,
+      "right": false,
+      "bottom": true,
+      "left": false
+    },
+    { //9
+      "top": true,
+      "right": false,
+      "bottom": true,
+      "left": false
+    },
+    { //10
+      "top": false,
+      "right": true,
+      "bottom": false,
+      "left": false
+    },
+    { //11
+      "top": true,
+      "right": true,
+      "bottom": false,
+      "left": true
+    },
+    { //12
+      "top": true,
+      "right": false,
+      "bottom": false,
+      "left": true
+    },
+    { //13
+      "top": true,
+      "right": true,
+      "bottom": false,
+      "left": false
+    },
+    { //14
+      "top": false,
+      "right": true,
+      "bottom": false,
+      "left": true
+    },
+    { //15
+      "top": false,
+      "right": true,
+      "bottom": false,
+      "left": true
+    },
+    {
+      "top": false,
+      "right": false,
+      "bottom": false,
+      "left": true
+    }
+  ]
+}
